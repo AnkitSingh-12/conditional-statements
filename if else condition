@@ -1,0 +1,60 @@
+1#
+WAP TO PRINT GIVEN IS EVEN OR ODD
+
+odd 
+n=int(input('enter the value'))
+if n%2==1:
+    print('given number is odd')
+else :
+   print('given number is even')
+---------------------------------------
+even
+n=int(input('enter the value'))
+if n%2==0:
+    print('given number is even')
+else :
+   print('given number is odd')
+
+
+2#
+WAP TO FIND MAX NUMBER AMONG GIVEN TWO
+
+S=int(input())
+L=int(input())
+if s>L:
+    print('s' is max)
+else:
+    print('L' is   max)
+
+
+
+3#
+WAP TO CHECK IT PALINDROME OR NOT 
+
+S=  input('enter a string':)
+L=S[ : : -1]
+if S==L:
+   print('given string a palindrome')
+else:
+   print('given string is not palindrome')
+
+
+4#
+WAP TO PRINT OR CHECK GIVEN STRING ANAGRAM 
+
+S=input()
+L=input()
+if sorted(S)==sorted(L):
+    print('a,b are anagram')
+else:
+    print('a,b are not anagram')
+
+
+5#
+WAP TO CHECK GIVEN YEAR IS LEAP YEAR OR NOT 
+
+S=input('enter a year')
+if (S%4==0 and S%100!=0) or (S%400==0 and S%100==0):
+  print('S is leap year')
+else:
+  print('S is not leap year')
