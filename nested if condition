@@ -1,0 +1,110 @@
+#nested if 
+# code
+
+#1# wap to maximum number among give 3 no using nested if
+
+
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b:
+    if a>c:
+        print('a is max')
+    else:
+        print('c is max ')
+else:
+    if b>c:
+        print('b is max')
+    else:
+          print('c is max ')
+
+
+#2## wap to maximum number among give 4 no using nested if
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+
+if a > b:
+    if a > c:
+        if a > d:
+            print ('a is max') 
+        else:
+             print ('d is max') 
+    else:
+        if c > d:
+            print ('c is max') 
+        else:
+            print ('d is max') 
+else:
+    if b > c:
+        if b > d:
+            print ('b is max')
+        else:
+             print ('d is max')
+    else:
+        if c > d:
+             print ('c is max')
+        else:
+             print ('d is max')
+
+
+
+#3### wap to maximum number among give  5 no using nested if
+
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+if a > b:
+    if a > c:
+        if a > d:
+            if a > e:
+                print ('a is max ')
+            else:
+                 print ('e is max ')
+        else:
+            if d > e:
+                print ('d is max ')
+            else:
+                 print ('e is max ')
+    else:
+        if c > d:
+            if c > e:
+                print ('c is max ')
+            else:
+                 print ('e is max ')
+        else:
+            if d > e:
+                print ('d is max ')
+            else:
+                print ('e is max ')
+else:
+    if b > c:
+        if b > d:
+            if b > e:
+                print ('b is max ')
+            else:
+                print ('e is max ')
+        else:
+            if d > e:
+                print ('d is max ')
+            else:
+                print ('e is max ')
+    else:
+        if c > d:
+            if c > e:
+                print ('c is max ')
+            else:
+                 print ('e is max ')
+        else:
+            if d > e:
+                print ('d is max ')
+            else:
+                print ('e is max ')
+
+
+ 
